@@ -54,10 +54,6 @@ a {
   position: relative;
 }
 
-p {
-  padding: 15px;
-}
-
 /* clear  */
 
 header {
@@ -244,14 +240,21 @@ li {
 .title_about {
   font-size: 50px;
   text-transform: uppercase;
-  padding-top: 20px;
+  padding-top: 40px;
   color: #000000;
 
 }
 .subtitle_about {
   color: #777777;
   font-size: 15px;
-  padding-top: 5px;
+  padding-top: 15px;
+  padding-bottom: 60px;
+}
+
+.main_about_descriptions {
+  display: flex;
+  flex-direction: row;
+  padding: 0 22.2%;
 }
 
 .about_descriptions {
@@ -260,7 +263,9 @@ li {
   text-transform: uppercase;
   font-size: 18px;
   max-width: 600px;
-  padding-top: 50px;
+  padding-top: 30px;
+  padding-right: 15px;
+
 }
 
 .about_descriptions_2 {
@@ -268,5 +273,11 @@ li {
   text-align: right;
   max-width: 600px;
   padding-top: 15px;
+  padding-right: 15px;
 }
 
+.photo {
+  justify-content: center;
+}
+
+/* The end about us */
