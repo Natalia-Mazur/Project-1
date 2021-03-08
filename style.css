@@ -91,6 +91,7 @@ li {
   font-size: 20px;
   display: inline-block;
   padding: 0 30px;
+  cursor: pointer;
 }
 
 .titleheader {
@@ -103,14 +104,14 @@ li {
 .subtitleheader {
   text-align: center;
   color:#ffffff;
-  padding-top: 65px;
+  padding-top: 75px;
   font-size: 25px;
 
 }
 
 .navButton {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -137,24 +138,27 @@ li {
 }
 
 .services_h2 {
-  font-size: 50px;
+  font-size: 70px;
   text-transform: uppercase;
-  padding-top: 25px;
+  padding-top: 50px;
   color: #000000;
   text-align: center;
 }
 
 .services p {
   color: #adadad;
-  padding-top: 10px;
+  padding-top: 25px;
 }
 
 /* The end services */
 
 .services__image {
-  padding-left: 550px;
+ padding-top: 50px;
   text-align: center;
   height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .servicesImage {
@@ -165,7 +169,7 @@ li {
 }
 .subtitle2 {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 .servicesImage h2 {
   color: black;
@@ -191,7 +195,7 @@ li {
   font-size: 50px;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 25px;
+  padding-top: 50px;
   color: #000000;
 }
 
@@ -199,11 +203,8 @@ li {
   text-align: center;
   color: #777777;
   font-size: 15px;
+  padding-top: 25px;
   
-}
-.img__column {
-  display: flex;
-  flex-direction: column;
 }
 
 .img-container {
@@ -212,7 +213,7 @@ li {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
-  padding: 25px 200px;
+  padding: 65px 200px;
   background-color:#faf4f4;
 }
 
@@ -319,28 +320,155 @@ li {
 
 }
 .work_team {
-color: #b4b4b4;
-font-weight: bold;
-font-size: 16px;
-padding-top: 10px;
-padding-bottom: 10px;
+  color: #b4b4b4;
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.img_ourteam {
+padding: 30px;
 }
 
 .picture_logo_ourteam {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-padding: 25px 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25px 20px;
 }
 
 .ourteam_bottom {
   font-size: 20px;
-  padding: 10px 5px;
+  padding: 90px 5px;
+  text-align: center;
+  color: #b4b4b4;
+}
+
+.name_surname_work_team {
+text-align: center;
+}
+
+/* The end our amazing team */
+
+.logs_bottom {
+  text-align: center;
+  padding: 100px;
+}
+.evanto , .wordpress , .tuts {
+  padding-right: 60px;
+}
+
+.microlacer  {
+  padding-left: 60px;
+}
+
+/* The end logos bottom */
+
+.main_contact_us {
+  background-image: url(Contact\ Us.png);
+}
+.contact_us_title {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.contact_us_subtitle {
+  color: white;
   text-align: center;
 }
 
+.input_left {
+  width: 300px;
+  padding-left: 550px;
 
-/* fix flex */
+}
+.input_bottom {
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.input_yourname {
+  height: 30px;
+  margin-bottom: 15px;
+  border: 2px solid #fed136;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 5px;
+}
 
-/* The end our amazing team */
+.input_youremail {
+  height: 30px;
+  margin-bottom: 15px;
+  border: 2px solid #fed136;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 5px;
+}
+
+.input_subject {
+  height: 30px;
+  margin-bottom: 15px;
+  border: 2px solid #fed136;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 5px;
+}
+
+.input_right_ {
+  height: 147px;
+  border: 2px solid #fed136;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 5px;
+  width: 350px;
+}
+
+.send_message {
+  text-align: center;
+  padding: 10px 0 20px 170px;
+}
+.send_message_bottom {
+  width: 200px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #fed136;
+  border: 5px solid;
+  text-transform: uppercase;
+  color: white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border-radius: 7px;
+  border: none; 
+}
+
+/* The end contact us */
+
+.footer_wrap {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 300px;
+  font-size: 18px;
+  color:#b4b4b4;
+}
+
+.footer_copyright {
+  padding: 30px;
+}
+
+.img_footer {
+  padding: 15px 5px;
+}
+
+/* The end footer  */
